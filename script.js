@@ -29,7 +29,7 @@ listContainer.addEventListener("click",function(e){
         
     }
 },false)
-function savData(){
+function saveData(){
     localStorage.setItem("data",listContainer.innerHTML)
 }
 function showtask(){
